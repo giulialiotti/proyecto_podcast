@@ -1,0 +1,15 @@
+//Generales
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/helpers';
+
+//Especificos
+@import 'partials/body';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
+@import 'partials/mediaqueries';
+
+//Fuentes
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap');

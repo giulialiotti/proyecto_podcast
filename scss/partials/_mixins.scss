@@ -1,0 +1,17 @@
+// Fuentes mobile
+
+@mixin style-title ($color) {
+    font-family: $font-sans;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    color: $color;
+} 
+
+@mixin style-p ($line-height) {
+    font-family: $font-mono;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: $line-height;
+    color: $black;
+}

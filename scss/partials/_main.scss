@@ -1,0 +1,106 @@
+// Generales mobile (comment: desktop)
+
+/* section, footer, header {
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+section, footer, header {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+// Section 1 mobile (comment: desktop)
+
+h1 {
+    /*font-family: $font-sans;
+    font-size: 64px;
+    color: $black;
+    letter-spacing: 0;
+    line-height: 84px;*/
+    font-family: $font-sans;
+    font-size: 36px;
+    color: $black;
+    letter-spacing: 0;
+    line-height: 42px;
+    .line-through {
+        text-decoration: line-through;
+    }
+    .blue-dot {
+        color: $blue;
+    }
+}
+
+.container-1 {
+    p {
+        @include style-p (22px);
+    }
+    a {
+        @extend %button;
+        @extend %button-text;
+    }
+}
+
+// Section 2 desktop
+
+.container-2 {
+    background: $light-blue;
+    h2 {
+        @include style-title ($white);
+    }
+}
+
+// Section 3 desktop
+
+.container-3 {
+    h2 {
+        @include style-title ($black);
+    }
+    p {
+        @include style-p (22px);
+    }
+}
+
+// Section 4
+
+.container-4 {
+    h2 {
+        @include style-title ($black);
+    }
+}
+
+// Section 5 mobile and desktop is the same text type
+
+.container-5 {
+    h2 {
+        @include style-title ($black);
+    }
+    .text-icon {
+        font-family: $font-sans;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: $black;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}
+
+.icon-image {
+    width: 320px;
+    height: 130px;
+    margin: auto;
+}
+
+// Section 6 desktop
+
+.container-6 {
+    background: $blue;
+    a {
+        @extend %button;
+        @extend %button-text;
+    }
+    h2 {
+        @include style-title ($white);
+    }
+}

@@ -1,0 +1,18 @@
+// Botón version desktop
+
+%button {
+    background: aqua;
+    border: 0;
+    padding: 16px 59px;
+}
+
+%button-text {
+    font-family: $font-mono;
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none;
+}
