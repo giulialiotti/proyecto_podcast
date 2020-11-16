@@ -1,12 +1,12 @@
 // Botón version desktop
 
-%button {
+%button-desktop {
     background: aqua;
     border: 0;
     padding: 16px 59px;
 }
 
-%button-text {
+%button-text-desktop {
     font-family: $font-mono;
     font-size: 18px;
     font-weight: 500;
@@ -15,4 +15,27 @@
     text-align: center;
     line-height: 24px;
     text-decoration: none;
+}
+
+// Botón version mobile
+
+%button {
+    background: aqua;
+    border: 0;
+    padding: 13px 96px;
+}
+
+%button-text {
+    font-family: $font-mono;
+    font-size: 16px;
+    font-weight: 500;
+    color: $black;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+%text-center {
+    text-align: center;
 }

@@ -1,0 +1,30 @@
+@media screen and (min-width: 960px) {
+
+    section, footer, header {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    header {
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            width: 36px;
+            height: 36px;
+            margin-top: 22px;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            list-style: none;
+            margin-top: 26px;
+        }
+        a {
+            text-decoration: none;
+            padding: 20px;
+            @include style-p (28px);
+        }
+    }
+
+}
