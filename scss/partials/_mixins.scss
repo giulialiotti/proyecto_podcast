@@ -3,6 +3,7 @@
 @mixin style-title ($color) {
     font-family: $font-sans;
     font-size: 36px;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 42px;
     color: $color;

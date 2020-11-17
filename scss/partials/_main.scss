@@ -1,13 +1,7 @@
-// Generales mobile
-
-section, footer, header {
-    margin-left: 16px;
-    margin-right: 16px;
-}
-
-// Section 1 mobile (comment: desktop)
+// Section 1
 
 h1 {
+    //(comment: desktop)
     /*font-family: $font-sans;
     font-size: 64px;
     color: $black;
@@ -15,6 +9,7 @@ h1 {
     line-height: 84px;*/
     font-family: $font-sans;
     font-size: 36px;
+    font-weight: 400;
     color: $black;
     letter-spacing: 0;
     line-height: 42px;
@@ -41,9 +36,7 @@ h1 {
 .background {
     position: relative;
     height: 1203.5px;
-    width: auto;
-    margin-left: -8px;
-    margin-right: -8px;
+    width: 100vw;
     padding-top: 5rem; //hay que arreglar las medidas reales
     //padding-bottom: 12rem;
     background: rgb(0,0,255);
@@ -52,8 +45,7 @@ h1 {
 }
 
 .episodio-1, .episodio-2, .episodio-3, .episodio-4, .episodio-5, .episodio-6 {
-    height: 225px;
-    width: 298px;
+    width: 90%;
 }  
 
 .container-2 {
@@ -61,13 +53,16 @@ h1 {
             @include style-title ($white);
         }
 }
-
+.episodios {
+    display: flex;
+    flex-direction: column;
+}
 // Section 3
 
 .container-3 {
     img {
         height: 519px;
-        width: 360px;
+        width: 100%;
         display: block;
         margin: 0 auto;
         margin-top: 48px;
@@ -90,8 +85,11 @@ h1 {
 }
 
 .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    //margin-left: -16px;
     img {
-        width: 320px;
         height: 243px;
     }
 }
@@ -114,7 +112,7 @@ h1 {
 }
 
 .icon-image {
-    width: 320px;
+    width: 100%;
     height: 130px;
     display: block;
     margin: 0 auto;
@@ -133,15 +131,15 @@ h1 {
     h2 {
         @include style-title ($white);
         @extend %text-center;
+        margin-top: -20px;
     }
 }
 
 .second-background {
-    position: relative;
     height: 341px;
-    width: auto;
-    margin-left: -8px;
-    margin-right: -8px;
+    width: 100%;
+    //margin-left: -16px;
+    //margin-right: -16px;
     padding-top: 5rem;
     padding-bottom: 12rem;
     background: rgb(0,0,255);
