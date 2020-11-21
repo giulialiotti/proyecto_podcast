@@ -29,9 +29,8 @@ h1 {
     a {
         @extend %button;
         @extend %button-text;
-        margin-top: 36px;
     }
-    .hidden-text {
+    .text-desktop {
         display: none;
     }
 }

@@ -41,7 +41,14 @@
         }
     }
 
-    .container-1 .hidden-text {
-        display: contents;
+    //Section 1
+
+    .container-1 {
+        .text-desktop {
+            display: block;
+        }
+        .text-mobile {
+            display: none;
+        }
     }
 }
