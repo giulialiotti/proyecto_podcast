@@ -14,15 +14,17 @@ header .flex-container {
 .menu {
     margin-top: 16px;
     margin-right: 19px;
+
     ul {
         position: absolute;
-        top: 44px;
         right: 0;
         width: 100%;
         height: 0;
         opacity: 0;
         background: $blue;
         list-style: none;
+        padding: 0;
+        overflow: hidden;
     }
 
     a {
@@ -49,7 +51,7 @@ input[type="checkbox"] {
     display: block;
     width: 18px;
     height: 2px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     position: relative;
     background: black;
     z-index: 1;
@@ -67,6 +69,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ ul {
     opacity: 1;
     height: auto;
+    overflow: auto;
 }
 
 // Movimiento a cruz
