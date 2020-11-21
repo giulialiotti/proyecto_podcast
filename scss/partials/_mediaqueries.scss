@@ -40,4 +40,8 @@
             @include style-p (28px);
         }
     }
+
+    .container-1 .hidden-text {
+        display: contents;
+    }
 }

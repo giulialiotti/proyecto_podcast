@@ -22,12 +22,17 @@ h1 {
 }
 
 .container-1 {
+    height: 303px;
     p {
         @include style-p (22px);
     }
     a {
         @extend %button;
         @extend %button-text;
+        margin-top: 36px;
+    }
+    .hidden-text {
+        display: none;
     }
 }
 
@@ -128,6 +133,7 @@ h1 {
         @extend %button;
         @extend %button-text;
         justify-content: center;
+        padding: 13px;
     }
     h2 {
         @include style-title ($white);
