@@ -4,19 +4,25 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+
+    // Header 
     
-    header {
-        .logo {
-            display: flex;
-            justify-content: flex-start;
-            width: 36px;
-            height: 36px;
-            margin-top: 22px;
+    header .logo-container {
+                width: 36px;
+                height: 36px;
+                margin-top: 22px;
+    }
+
+    .menu {
+        input,
+        span {
+            display: none;
         }
         ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
+            position: static;
+            height: auto;
+            background: transparent;
+            opacity: 1;
             list-style: none;
             margin-top: 26px;
         }
@@ -26,5 +32,4 @@
             @include style-p (28px);
         }
     }
-
 }
