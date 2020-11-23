@@ -1,18 +1,19 @@
 footer p {
-    margin: 24px 45px 16px 45px;
+    margin: 24px 45px 0px 45px;
     @include style-p (22px);
-    text-align: center;
+    @extend %text-center;
 }
 
-.social-media-links {
-    display: flex;
-    justify-content: center;
-    margin: 0 45px 31px 45px;
-}
-
-ul li {
+.social-media-links li {
     font-size: 16px;
     color: $black;
     letter-spacing: 0;
     line-height: 28px;
+    padding: 17px;
+}
+
+footer ul {
+    padding-left: 0;
+    margin: 0;
+    @extend %text-center;
 }
