@@ -75,16 +75,18 @@ h1 {
 
 .container-3 {
     img {
+        position: relative;
         height: 519px;
         width: 100%;
         display: block;
         margin: 0 auto;
-        margin-bottom: 27px;
+        //margin-bottom: 27px;
         z-index: 1;
         top: -100px;
     }
     h2 {
         @include style-title ($black);
+        margin-top: -70px;
     }
     p {
         @include style-p (22px);
