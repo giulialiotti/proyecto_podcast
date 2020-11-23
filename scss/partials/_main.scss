@@ -51,10 +51,8 @@ h1 {
     position: relative;
     height: 1250px;
     width: 100vw;
-    padding-top: 3rem; //hay que arreglar las medidas reales
-    //padding-bottom: 20rem;
-    background: rgb(0,0,163);
-    background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
+    padding-top: 3rem;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
 }
 
@@ -80,7 +78,6 @@ h1 {
         width: 100%;
         display: block;
         margin: 0 auto;
-        //margin-bottom: 27px;
         z-index: 1;
         top: -100px;
     }
@@ -105,7 +102,6 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    //margin-left: -16px;
     img {
         height: 243px;
     }
@@ -155,12 +151,10 @@ h1 {
 }
 
 .second-background {
-    height: 341px;
+    height: 320px;
     width: 100%;
     margin-top: 42px;
     padding-top: 5rem;
-    padding-bottom: 12rem;
-    background: rgb(0,0,163);
-    background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 100%);
 }
