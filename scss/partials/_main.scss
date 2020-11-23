@@ -13,6 +13,7 @@ h1 {
     color: $black;
     letter-spacing: 0;
     line-height: 42px;
+    padding-right: 30px;
     .line-through {
         text-decoration: line-through;
     }
@@ -25,6 +26,7 @@ h1 {
     height: 303px;
     p {
         @include style-p (22px);
+        margin-bottom: 36px;
     }
     a {
         @extend %button;
@@ -41,11 +43,11 @@ h1 {
     position: relative;
     height: 1203.5px;
     width: 100vw;
-    padding-top: 5rem; //hay que arreglar las medidas reales
+    padding-top: 3rem; //hay que arreglar las medidas reales
     //padding-bottom: 12rem;
     background: rgb(0,0,163);
     background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
-    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
 }
 
 .episodio-1, .episodio-2, .episodio-3, .episodio-4, .episodio-5, .episodio-6 {
@@ -53,14 +55,17 @@ h1 {
 }  
 
 .container-2 {
+    margin-top: -20px;
     h2 {
             @include style-title ($white);
         }
 }
+
 .episodios {
     display: flex;
     flex-direction: column;
 }
+
 // Section 3
 
 .container-3 {
