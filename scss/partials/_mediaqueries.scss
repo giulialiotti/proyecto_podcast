@@ -4,6 +4,10 @@
     //     margin-left: 100px;
     //     margin-right: 100px;
     // }
+    h1, h2, p {
+        margin-left: 0;
+        margin-right: 0;
+      }
 
     // Header 
 
@@ -46,8 +50,11 @@
     //Section 1
 
     .container-1 {
+        margin-left: 200px;
+        height: 369px;
         .text-desktop {
             display: block;
+            padding-right: 52%;
         }
         .text-mobile {
             display: none;
@@ -60,5 +67,18 @@
         color: $black;
         letter-spacing: 0;
         line-height: 84px;
+        margin-bottom: -10px;
     }
+
+    #section-1
+        p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        a {
+            margin-left: 0;
+            padding: 16px 59px;
+            font-size: 18px;
+            line-height: 24px;
+        }
 }
