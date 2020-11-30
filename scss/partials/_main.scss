@@ -90,11 +90,9 @@ h1 {
 
 // Section 4
 
-.container-4 {
-    h2 {
-        @include style-title ($black);
-        @extend %margin-mobile;
-    }
+#section-4 h2 {
+    @include style-title ($black);
+    @extend %margin-mobile;
 }
 
 .gallery {
@@ -106,7 +104,7 @@ h1 {
     }
 }
 
-// Section 5 mobile and desktop is the same text type
+// Section 5
 
 .container-5 {
     h2 {

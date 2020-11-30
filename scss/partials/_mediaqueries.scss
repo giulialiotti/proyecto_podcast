@@ -126,4 +126,18 @@
 
     // Section 4
 
+    #section-4 h2 {
+        margin-left: 200px;
+    }
+
+    .gallery img {
+        width: calc(100% / 3);
+        height: 364px;
+    }
+
+    #section-4 .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
