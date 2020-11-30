@@ -99,7 +99,7 @@ h1 {
     display: flex;
     flex-direction: column;
     img {
-        height: 243px;
+        min-height: 243px;
         max-width: 100%;
     }
 }
