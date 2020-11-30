@@ -18,6 +18,7 @@ h1 {
 
 .container-1 {
     height: 303px;
+    @extend %margin-mobile;
     p {
         @include style-p (22px);
         margin-bottom: 36px;
@@ -38,6 +39,7 @@ h1 {
     h2 {
             @include style-title ($white);
             margin-top: 20px;
+            margin-left: 16px;
         }
 }
 
@@ -50,7 +52,7 @@ h1 {
     clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
 }
 
-.episodios {
+#section-2 .episodios {
     display: flex;
     flex-direction: column;
 }
@@ -78,9 +80,11 @@ h1 {
     h2 {
         @include style-title ($black);
         margin-top: -70px;
+        @extend %margin-mobile;
     }
     p {
         @include style-p (22px);
+        @extend %margin-mobile;
     }
 }
 
@@ -89,6 +93,7 @@ h1 {
 .container-4 {
     h2 {
         @include style-title ($black);
+        @extend %margin-mobile;
     }
 }
 
@@ -107,6 +112,7 @@ h1 {
     h2 {
         @include style-title ($black);
         margin-top: 48px;
+        @extend %margin-mobile;
     }
     .text-icon {
         font-family: $font-sans;
@@ -131,6 +137,7 @@ h1 {
 .container-6 {
     display: flex;
     flex-direction: column;
+    @extend %margin-mobile;
     a {
         @extend %button;
         @extend %button-text;

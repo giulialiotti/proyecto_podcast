@@ -47,7 +47,7 @@
         }
     }
 
-    //Section 1
+    // Section 1
 
     .container-1 {
         margin-left: 200px;
@@ -82,4 +82,18 @@
         font-size: 18px;
         line-height: 24px;
     }
+
+    // Section 2
+
+    .episodios iframe {
+        width: calc((100% / 2) - 15px);
+    }
+
+    #section-2 .episodios {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
 }
