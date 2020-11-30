@@ -140,4 +140,22 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    // Section 5
+
+    #section-5 h2 {
+        margin-left: 200px;
+    }
+
+    #section-5 .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .icon-1, .icon-2, .icon-3, .icon-4 {
+        width: 260px;
+    }
 }
