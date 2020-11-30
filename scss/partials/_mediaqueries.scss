@@ -105,5 +105,25 @@
         width: 100%;
     }
 
+    // Section 3
+
+    .container-3 img {
+        max-width: 457.6px;
+        height: 660px;
+        margin-left: 200px;
+    }
+
+    #section-3 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 9;
+    }
+
+    .text-section-3 {
+        margin-right: 256px;
+    }
+
+    // Section 4
 
 }
