@@ -47,7 +47,6 @@
 
     .container-1 {
         margin-left: 200px;
-        height: 369px;
         .text-desktop {
             display: block;
             padding-right: 52%;
@@ -102,7 +101,9 @@
     }
 
     .background {
-        height: 780px;
+        height: 850px;
+        clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+        padding-top: 7rem;
     }
 
     // Section 3
