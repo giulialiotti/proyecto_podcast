@@ -1,9 +1,5 @@
 @media screen and (min-width: 960px) {
 
-    // section, footer, header {
-    //     margin-left: 100px;
-    //     margin-right: 100px;
-    // }
     h1, h2, p {
         margin-left: 0;
         margin-right: 0;
@@ -103,6 +99,10 @@
 
     .episodios iframe {
         width: 100%;
+    }
+
+    .background {
+        height: 780px;
     }
 
     // Section 3
