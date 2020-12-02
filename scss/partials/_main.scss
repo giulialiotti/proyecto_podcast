@@ -16,7 +16,7 @@ h1 {
     }
 }
 
-.container-1 {
+#section-1 {
     height: 303px;
     @extend %margin-mobile;
     p {
@@ -32,14 +32,14 @@ h1 {
     }
 }
 
-.container-1 a:hover {
+#section-1 a:hover {
     color: $white;
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
 // Section 2
 
-.container-2 {
+#section-2 {
     margin-top: -20px;
     h2 {
             @include style-title ($white);
@@ -72,7 +72,7 @@ h1 {
 
 // Section 3
 
-.container-3 {
+#section-3 {
     img {
         position: relative;
         height: 519px;
@@ -137,7 +137,7 @@ h1 {
 
 // Section 6
 
-.container-6 {
+#section-6 {
     display: flex;
     flex-direction: column;
     @extend %margin-mobile;
@@ -163,7 +163,7 @@ h1 {
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
 }
 
-.container-6 a:hover {
+#section-6 a:hover {
     color: $white;
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
