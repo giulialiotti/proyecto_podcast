@@ -43,10 +43,10 @@ h1 {
 #section-2 {
     margin-top: -20px;
     h2 {
-            @include style-title ($white);
-            margin-top: 20px;
-            margin-left: 16px;
-        }
+        @include style-title ($white);
+        margin-top: 20px;
+        margin-left: 16px;
+    }
 }
 
 .background {
