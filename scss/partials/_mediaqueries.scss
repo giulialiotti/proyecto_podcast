@@ -234,3 +234,20 @@
         margin-right: 23%;
     }
 }
+
+@media screen and (min-width: 768px) {
+    #section-5 .icons {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin: 0 10%;
+    }
+
+    .icon-1, .icon-2, .icon-3, .icon-4 {
+        padding: 8%;
+    }
+
+    .icon-image {
+        margin-top: 0;
+    }
+}
