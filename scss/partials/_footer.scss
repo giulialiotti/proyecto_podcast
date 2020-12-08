@@ -4,16 +4,22 @@ footer p {
     @extend %text-center;
 }
 
-.social-media-links li {
+.social-media-links li a {
     font-size: 1.142rem;
     color: $black;
     letter-spacing: 0;
     line-height: 28px;
-    padding: 17px;
+}
+
+footer ul li {
+    margin: 0;
+    @extend %text-center;
+    list-style: none;
 }
 
 footer ul {
+    display: flex;
+    justify-content: space-between;
     padding-left: 0;
-    margin: 0;
-    @extend %text-center;
+    margin: 16px 14%;
 }

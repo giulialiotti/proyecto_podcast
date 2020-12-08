@@ -207,7 +207,19 @@
     footer {
         display: flex;
         justify-content: space-between;
-        margin: 0 6.9%;
+        align-items: center;
+        margin: 0.9% 6.9%;
+        ul {
+            margin: 0;
+        }
+        p {
+            margin: 0;
+        }
+    }
+
+
+    footer ul li {
+        padding: 17px;
     }
 }
 
